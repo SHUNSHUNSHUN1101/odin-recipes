@@ -1,0 +1,21 @@
+
+
+.flexbox-container{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.flexbox-item{
+  width: 350px;
+  margin: 10px;
+  min-height: 500px;
+}
+
+h1{
+  text-align: center;
+}
+
+.text{
+  display: flex;
+  justify-content: space-evenly;
+}

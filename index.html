@@ -2,32 +2,31 @@
 <html>
   <head>
     <title>ODIN RECIPES</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header>
-      <h1>Recipes from Rick and Morty!</h1>
-      <img class="rick-and-morty-image" src="image/RICK&MORTY.jpeg" alt="Rick and Morty">
     </header>
     <article>
-      <h2>A collection of recipes from Rick and Morty</h2>
-      <ul>
-        <a href="lil-bits-pizza.html">
-          <li>Eye Holes</li>
-          <img class="eye-holes-image" src="image/eye-holes.jpeg" alt="eye-holes-image">
+      <h1>Recipes from Rick and Morty</h1>
+      <div class="flexbox-container">
+        <a href="recipes/eye-holes.html">
+          <img class="eye-holes-image flexbox-item" src="image/eye-holes.jpeg" alt="eye-holes-image">
+        </a>
+        <a href="recipes/cauliflower.html">
+          <img class="cauliflower-portal-mash-image flexbox-item" src="image/cauliflower-portal-mash.jpeg" alt="cauliflower-portal-mash-image">
         </a>
         
-        <a href="lil-bits-pizza.html">
-          <li>Cauliflower Portal Mash</li>
-          <img class="cauliflower-portal-mash-image" src="image/cauliflower-portal-mash.jpeg" alt="cauliflower-portal-mash-image">
+        <a href="recipes/pizza.html">
+          <img class="lil-bits-pizza-image flexbox-item" src="image/lil-bits-pizza.jpeg" alt="lil-bits-pizza-image">
         </a>
-        
-        <a href="lil-bits-pizza.html">
-          <li>Lil' Bits Pizza</li>
-          <img class="lil-bits-pizza-image" src="image/lil-bits-pizza.jpeg" alt="lil-bits-pizza-image">
-        </a>
-
-      </ul>
+      </div>
+      <div class="text">
+        <div>EYE HOLES</div>
+        <div>CAULIFLOWER</div>
+        <div>PIZZA</div>
+      </div>
+      
     </article>
   </body>
 </html>
